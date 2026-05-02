@@ -1,0 +1,25 @@
+{
+  "name": "medan-engine",
+  "version": "0.0.1",
+  "description": "The core engine for the Medan ecosystem.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node src/index.ts",
+    "start": "node dist/index.js"
+  },
+  "keywords": [
+    "medan",
+    "engine",
+    "typescript",
+    "package-manager"
+  ],
+  "author": "Medan-org",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "ts-node": "^10.9.1"
+  }
+}
